@@ -3,11 +3,11 @@ version: 1
 
 project:
   id: f0fe0848-3e4d-4333-bd10-450d468374b9
-  title: Thermal Radiation
-  authors: [W. Bartels]
+  title: Processes in Porous Materials
+  authors: [W. Bartels, D.R. Rieder, M. Rücker]
   #description: first attempt
   # keywords: [Planck]
-  github: https://github.com/Wi-Ba/wiba.github.io
+  github: https://github.com/multiscale-operations-in-porous-systems/processes-in-porous-materials
  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: index.md
@@ -18,4 +18,3 @@ project:
 site:
   template: book-theme
   
-
