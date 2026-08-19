@@ -1,0 +1,6 @@
+ipykernel
+jupyter-book>=2.0
+jupyterquiz
+numpy>=2.0
+plotly
+matplotlib
