@@ -25,3 +25,6 @@ site:
     show_launch_buttons: false
     logo: figures/TUe-logo-scarlet-L.png
     show_source: false
+html:
+  assets:
+    - _static/custom.css
