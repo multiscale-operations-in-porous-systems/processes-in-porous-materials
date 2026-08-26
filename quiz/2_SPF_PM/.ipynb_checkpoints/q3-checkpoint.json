@@ -1,0 +1,106 @@
+[
+    {
+        "question": "An unknown porous material is brought to your laboratory. The material contains already some water, but clearly not all pores are filled.<br><br>The following measurements are taken:<br>1. Total mass of the sample as it was brought into the lab: $1523.6\\text{ g}$<br>2. Mass of the oven-dried sample: $1318.3\\text{ g}$<br>3. Total volume of the sample: $728.2\\text{ cm}^3$<br>4. Density of the matrix materials: $2.70\\text{ g/cm}^3$<br><br>Calculate the porosity $\\phi$ to two decimal places",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.51,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "For the same sample, calculate the void ratio $e$ to two decimal places",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.23,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "Bonus question (helps for the rest of the course): For the same sample, calculate the volumetric water content $\\theta$ to two decimal places<br><br> Yes, you will need to look up the definition of volumetric water content. You know... in a book or online.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.68,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "What would be the mass of $1\\text{ m}^3$ of the unknown porous material if it was completely saturated? Answer in kg and one decimal place.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 100,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    }
+]

@@ -41,3 +41,7 @@ VISIBILITY IPYNBcells ON GITHUBPAGES
 remove-input #hides cell but shows output.
 remove-cell #hides cell/input AND output
 hide-input #hides cell but can be clicked open so code can be inspected
+
+
+EDIT JSON FILES
+use Editor, don't open it with JSON in JUPYTERLABS

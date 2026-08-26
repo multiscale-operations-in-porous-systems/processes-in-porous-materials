@@ -1,0 +1,80 @@
+[
+    {
+        "question": "A fine sand has a grain size distribution as listed in Table X(3.4). The porosity of the sand is $\\phi = 0.37$ <br><br>Calculate the estimated intrinsic permeability $k$ to two decimal places using the Kozeny-Carman correlation",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.51,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "The same sample is compacted so the porosity decreases by 25%. What is the new intrinsic permeability according to the Kozeny-Carman equation?",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.23,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "A different permeability model is the Hazen equation: $k=Cd_10^2$. Use literature to find an appropriate value for $C$ and calculate the intrinsic permeability.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.68,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    }
+]

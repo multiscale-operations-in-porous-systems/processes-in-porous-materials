@@ -1,0 +1,131 @@
+[
+    {
+        "question": "Consider Darcy's experiment shown in Figure 3.1. If the water levels in the reservoirs are kept constant (constant $\\Delta h$) the experiment is considered a 'constant head experiment'. Say that $h_1 = 95.0 \\text{ cm}$, $h_2 = 37.0 \\text{ cm}$ and the length of the sample is $L = 20.0 \\text{ cm}$. Furthermore the volume flow obtained in the experiment is $Q = 3.5 \\text{ cm^3/min}$, with a tube radius of $r = 1.5 \\text{ cm}$<br><br> Calculate $K$ in cm/s",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.51,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "Explain why fine-grained granular materials tend to have a lower hydraulic conductivity than coarse-grained granular materials.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Fine-grained materials have smaller pore spaces, which creates higher frictional resistance and restricts fluid flow.",
+                "correct": true,
+                "feedback": "Correct! While fine-grained materials often have a higher total porosity, their individual pores and flow paths (throats) are much smaller, leading to significantly higher friction and resistance to water flow."
+            },
+            {
+                "answer": "Fine-grained materials have a much lower total porosity compared to coarse-grained materials.",
+                "correct": false,
+                "feedback": "Incorrect. In fact, fine-grained materials (like clay or silt) often have a higher total porosity than coarse-grained materials (like sand or gravel). The lower conductivity is due to pore size, not total pore volume."
+            },
+            {
+                "answer": "The individual grains in fine-grained materials are more spherical, creating tighter packing structures.",
+                "correct": false,
+                "feedback": "Incorrect. Grain shape can vary in both types. The primary factor influencing hydraulic conductivity here is the size of the pores, which scales directly with the grain size."
+            },
+            {
+                "answer": "Fine-grained materials create larger, more direct pathways (high tortuosity) for water to flow through.",
+                "correct": false,
+                "feedback": "Incorrect. Fine-grained materials actually create highly complex, narrow, and winding pathways (high tortuosity), which slows down fluid velocity."
+            }
+            
+        ]
+    },
+    {
+        "question": "A sand has hydraulic conductivity of $K = 0.7 \\text{ m/day}$ and porosity of $\\phi = 0.32$. with a hydraulic gradient of $0.012$, what would the average linear velocity $\\bar{v}_x$ be? Give your answer in m/day and two decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.68,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "What is the intrinsic permeability $k$? Assume a temperature of $T = 20^\\circ \\text{ C}$",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.68,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+        ]
+    },
+    {
+        "question": "Based on this, investigate the range of conductivities when the fluid changes (say: water, leaded gasoline and Arabian medium crude oil)",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.68,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "question": "A concrete dam is $95 \\text{ m}$ long parallel to its axis, across the valley. The head on the upstream side of the dam is $14 \\text{ m}$ higher than the head on the downstream side. There is a thin sand layer under the entire concrete base of the dam. It is $0.6 \\text{ m}$ thick on average, and extends about $25 \\text{ m}$ from the upstream to the downstrdeamside of the dam. The sand's effective porosity is $\\phi =0.34$. A dye tracer test from upstream to downstream indicates that the average linear velocity within this sand is $\\bar{v}_x = 13 \\text{ m/day}$ ($x$ is parallel to the layer, perpendicular to the dam's axis).<br><br> Calculate the specific discharge $q_x$ through the sand layer.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.51,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "Estimate the total discharge $Q$ leaking through the sand layer under the entire dam.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.23,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "Estimate $K_x$ of the sand",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.68,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    },
+    {
+        "question": "Reflect on the terminology of the question. What is meant by 'effective porosity'?",
+        "type": "multiple_choice",
+        "answers": [
+           {
+                "answer": "The total volume of voids in the rock, including isolated pores.",
+                "correct": false,
+                "feedback": "Incorrect. This defines total porosity. Effective porosity only considers interconnected pores."
+            },
+            {
+                "answer": "The volume of interconnected pores that can actually transmit fluids.",
+                "correct": true,
+                "feedback": "Correct! Only the connected open spaces contribute to fluid flow."
+            },
+            {
+                "answer": "The velocity at which a fluid flows through the soil under the influence of gravity.",
+                "correct": false,
+                "feedback": "Incorrect. This describes hydraulic conductivity or permeability, not porosity itself."
+            },
+            {
+                "answer": "The ratio between the weight of the dry rock and the weight of the saturated rock.",
+                "correct": false,
+                "feedback": "Incorrect. This relates to bulk density or moisture content, not the pore structure."
+            }
+            
+        ]
+    }
+]

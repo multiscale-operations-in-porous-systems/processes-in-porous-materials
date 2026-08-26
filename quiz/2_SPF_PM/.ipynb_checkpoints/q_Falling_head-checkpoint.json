@@ -1,0 +1,28 @@
+[
+    {
+        "question": "A falling head permeameter is set up to measure the hydraulic conductivity of a silty sand sample. The sample is a cylinder $8 \\text{ cm}$ in diamterer and $22 \\text{cm long}$. The burette has a diameter of $2 \\text{ mm}$. At the start of the test, the head difference across the sample is $80 \\text{ cm}$. Assuming the sample's hydraulic conductivity is $10^{-4} \\text{ cm/s}$, estimate how much time will elapse before the head difference across the sample reduced from $80$ to $20 \\text{ cm}$. Give your answer in seconds",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.51,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "A garden hose is spraying water almost straight up into the air. The end of the hose where the water exits is at elevation $134.5 \\text{ m}$ . The hose is $2 \\text{ cm}$ in diameter, and the flow rate is $2 \\text{ L/s}$. What is the hydraulic head h in the water right as it exits the hose? Assuming that the water has this same $h$ as it travels up and down in the air, what would be the highest elevation that the water arc reaches? Assume $v=0$ at the top of the arc",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.51,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [ 3.142857, 3.142858], 
+                "correct": true,
+                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
+            },
+            {
+                "type": "range",
+                "range": [ -100000000, 0], 
+                "correct": false,
+                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+            }
+            
+        ]
+    }
+]

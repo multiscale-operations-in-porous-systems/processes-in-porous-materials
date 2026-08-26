@@ -1,5 +1,7 @@
 # Welcome!
-Welcome to this course module on thermal radiation!
+Welcome to this course on processes in porous materials! This set of pages serves as a bundle of all exercises we want you to make. Some of them we will cover during the lecture. Others you will have to do at home.
+
+If you have any questions, please reach out to the lecturer of the corresponding topic.
 
 
 # Introduction

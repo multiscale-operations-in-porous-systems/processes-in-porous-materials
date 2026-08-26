@@ -3,19 +3,26 @@ version: 1
 
 project:
   id: f0fe0848-3e4d-4333-bd10-450d468374b9
-  title: Thermal Radiation
-  authors: [W. Bartels]
-  #description: first attempt
-  # keywords: [Planck]
-  github: https://github.com/Wi-Ba/wiba.github.io
- # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  title: Processes in Porous Materials
+  authors: [W. Bartels, D. Rieder, M. Ruecker]
+  edit_url: null
+  jupyter:
+    binder:
+     repo: Wi-Ba/wiba.github.io
+
   toc:
     - file: index.md
       title: Home
-    - file: chapters/Fundamentals.ipynb
-    - file: chapters/Mechanics.ipynb
-    - file: chapters/Porosity.ipynb
+    - file: chapters/2a_SinglePhaseFlow_inPM.ipynb
+    - file: chapters/2b_Poromechanics.ipynb
+    - file: chapters/3a_HeatTrans_inPM.ipynb
+    - file: chapters/3b_SoluteTrans_inPM.ipynb
+    - file: chapters/4a_Electrochemistry.ipynb
+
 site:
   template: book-theme
-  
-
+  options:
+    hide_launcher: true
+    show_launch_buttons: false
+    logo: figures/TUe-logo-scarlet-L.png
+    show_source: false
