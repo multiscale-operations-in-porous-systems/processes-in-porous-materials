@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "processes-in-porous-materials"
+dynamic = ["version", "dependencies"]
+
+requires-python = ">= 3.13"
+authors = [
+    {name = "David Rieder", email = "d.r.rieder@tue.nl"},
+    {name = "Willem-Bart Bartels", email = "w.bartels@tue.nl"},
+    {name = "Maja Rücker", email = "m.rucker@tue.nl"}
+]
+
+maintainers = [
+    {name = "David Rieder", email = "d.r.rieder@tue.nl"},
+    {name = "Willem-Bart Bartels", email = "w.bartels@tue.nl"},
+]
+description = "Supporting material for the course Processes in Porous Materials"
+readme = "README.md"
+license-files = ["LICENSE"]
+keywords = ["porous materials", "processes", "modeling"]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python"
+]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"]}
+
+[tool.setuptools_scm]
+write_to = "_version.py"
+
+[project.urls]
+Homepage = "https://multiscale-operations-in-porous-systems.github.io/processes-in-porous-materials/"
+Repository = "https://github.com/multiscale-operations-in-porous-systems/processes-in-porous-materials"
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+filterwarnings = [
+    "error",
+    'ignore::DeprecationWarning'
+]
+
+[tool.pyright]
+reportCallIssue = false
+reportArgumentType = false
+reportAssignmentType = false
+reportOptionalIterable = false
+reportOptionalMemberAccess = false
+reportOptionalSubscript = false
+reportGeneralTypeIssues = false
+reportAttributeAccessIssue = false
+reportOperatorIssue = false
+reportOptionalOperand = false
