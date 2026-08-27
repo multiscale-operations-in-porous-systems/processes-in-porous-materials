@@ -27,6 +27,17 @@
     background: transparent !important;
     box-shadow: none !important;
 }
+.correctButton {
+    background-color: rgba(0, 128, 0, 0.08) !important;
+    border: 2px solid #2e7d32 !important;
+    color: #2e7d32 !important;
+}
+
+.incorrectButton {
+    background-color: rgba(255, 0, 0, 0.08) !important;
+    border: 2px solid #c62828 !important;
+    color: #c62828 !important;
+}
 .Question,
 .Prompt {
     font-size: inherit !important;
