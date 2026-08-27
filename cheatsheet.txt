@@ -1,6 +1,6 @@
 CHANGE DIR
 % cd Documents\STEM_ED_SIGNALS\testbook2_local
-
+% cd Documents/STEM_ED_SIGNALS/MOPS_4BC10/processes-in-porous-materials 
 GITHUB
 update files in github
 git pull origin main

@@ -1,54 +1,49 @@
-/* Entire quiz container */
 .Quiz {
-    max-width: 900px !important;
-    border: 1px solid #d0d7de;
-    border-radius: 8px;
-    padding: 1rem;
-    background: #fafafa;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    --jq-multiple-choice-bg: transparent;
+    --jq-many-choice-bg: transparent;
+    --jq-numeric-bg: transparent;
+    --jq-string-bg: transparent;
+    --jq-text-color: inherit !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    line-height: inherit !important;
 }
 
-/* Question area */
-.MultipleChoiceQn {
-    background: #eef6ff;
-    border-left: 5px solid #1f77b4;
-    padding: 12px;
-    border-radius: 4px;
-    margin-bottom: 0.75rem;
+.Quiz *,
+.Quiz {
+    color: inherit !important;
 }
 
-/* Answers */
-.Answer {
-    margin-left: 10px;
-}
-
-/* Correct feedback */
-.Feedback.correct {
-    background: #e8f7e8;
-    border-left: 5px solid #2e7d32;
-    padding: 10px;
-    border-radius: 4px;
-    margin-top: 10px;
-}
-
-/* Incorrect feedback */
-.Feedback.incorrect {
-    background: #ffeaea;
-    border-left: 5px solid #b71c1c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-top: 10px;
-}
-.MultipleChoiceQn {
-    background: #eef6ff;
-    border-left: 5px solid #1976d2;
-}
-.NumericalQn {
-    background: #fff4e5;
-    border-left: 5px solid #ef6c00;
-}
+.MCButton,
+.Input-text,
+.Feedback,
+.MultipleChoiceQn,
+.ManyChoiceQn,
+.NumericQn,
 .StringQn {
-    background: #f7efff;
-    border-left: 5px solid #7b1fa2;
+    border-radius: 0 !important;
+}
+.MCButton {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.Question,
+.Prompt {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+}
+
+.myst-made-with-myst svg {
+    display: none;
+}
+
+.myst-made-with-myst span {
+    font-size: 0;
+}
+
+.myst-made-with-myst span::after {
+    content: "4BC10";
+    display: block;
+    font-size: 0.875rem;
+    font-weight:500;
 }
