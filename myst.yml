@@ -11,7 +11,9 @@ project:
  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 
  # Enable interactive execution
-  jupyter: true
+  jupyter:
+    binder:
+      ref: dev
 
   toc:
     - file: index.md
