@@ -174,3 +174,4 @@ cython_debug/
 
 # build stuff
 _output
+*.db
