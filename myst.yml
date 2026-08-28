@@ -13,7 +13,7 @@ project:
  # Enable interactive execution
   jupyter:
     binder:
-      ref: dev
+      ref: HEAD
 
   toc:
     - file: index.md
