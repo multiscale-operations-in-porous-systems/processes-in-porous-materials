@@ -1,0 +1,31 @@
+name: Check Binder Ref
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check-binder-ref:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v5
+
+      - name: Install yq
+        run: |
+          sudo wget -O /usr/local/bin/yq \
+            https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64
+          sudo chmod +x /usr/local/bin/yq
+
+      - name: Verify Binder ref
+        run: |
+          REF=$(yq '.project.jupyter.binder.ref' myst.yml)
+
+          echo "Found Binder ref: ${REF}"
+
+          if [ "${REF}" != "main" ]; then
+            echo "::error::Binder ref must be 'main' before merging."
+            exit 1
+          fi
