@@ -37,6 +37,8 @@ jobs:
           node-version: 24
       - name: Install Jupyter Book (via myst)
         run: npm install -g jupyter-book
+      - name: Install Jupyter Lite
+        run: python -m pip install jupyterlite-core
       - name: Build HTML Assets
         run: |
             chmod +x scripts/build.sh
