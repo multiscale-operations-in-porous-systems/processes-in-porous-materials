@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+./scripts/build.sh
+python -m http.server 8000 --directory _build/html

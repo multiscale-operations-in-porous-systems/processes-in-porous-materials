@@ -44,11 +44,6 @@ jobs:
         run: |
             chmod +x scripts/build.sh
             ./scripts/build.sh
-      - name: Debug output
-        run: |
-            pip show jupyterlite-core
-            pip show jupyterlite-pyodide-kernel
-            cat _build/html/lite/jupyter-lite.json
       - name: Verify JupyterLite kernel
         run: |
             grep -q \
