@@ -35,14 +35,17 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 24
-      - name: Install Jupyter Book (via myst)
-        run: npm install -g jupyter-book
       - name: Install Jupyter Lite
-        run: python -m pip install jupyterlite-core jupyter-server jupyterlite-pyodide-kernel
+        run: python -m pip install jupyter-book jupyterlite-core==0.8.3 jupyter-server jupyterlite-pyodide-kernel
       - name: Build HTML Assets
         run: |
             chmod +x scripts/build.sh
             ./scripts/build.sh
+      - name: Verify JupyterLite kernel
+        run: |
+            grep -q \
+            "@jupyterlite/pyodide-kernel-extension" \
+            _build/html/lite/jupyter-lite.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
