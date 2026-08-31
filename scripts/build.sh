@@ -13,6 +13,7 @@ jupyter-book build --html
 
 echo "==> Building JupyterLite"
 
+jupyter lite clean
 jupyter lite build
 
 echo "==> Integrating JupyterLite into Jupyter Book"
