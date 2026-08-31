@@ -26,8 +26,9 @@ project:
 site:
   template: book-theme
   options:
-    hide_launcher: false
+    hide_launcher: true
     show_launch_buttons: true
     logo: figures/TUe-logo-scarlet-L.png
     show_source: false
     style: _static/custom.css
+    depth: 2 

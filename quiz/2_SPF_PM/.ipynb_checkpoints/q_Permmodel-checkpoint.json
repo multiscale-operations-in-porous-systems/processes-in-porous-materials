@@ -52,7 +52,7 @@
         ]
     },
     {
-        "question": "A different permeability model is the Hazen equation: k=Ccdotdtext10text2. Use literature to find an appropriate value for C and calculate the intrinsic permeability.",
+        "question": "A different permeability model is the Hazen equation: $k=C \\cdot d_\\text{ 10}^2$. Use literature to find an appropriate value for C and calculate the intrinsic permeability.",
         "type": "numeric",
         "precision": 2,
         "answers": [
