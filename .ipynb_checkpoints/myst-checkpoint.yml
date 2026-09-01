@@ -31,4 +31,5 @@ site:
     logo: figures/TUe-logo-scarlet-L.png
     show_source: false
     style: _static/custom.css
-    depth: 2 
+    outline_maxdepth: 2
+    folders: true

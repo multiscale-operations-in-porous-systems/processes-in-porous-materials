@@ -1,0 +1,54 @@
+[
+    {
+        "question": "An unknown porous material is brought to your laboratory. The material contains already some water, but clearly not all pores are filled.<br><br>The following measurements are taken:<br>1. Total mass of the sample as it was brought into the lab: ${m_tot}\\text{{ g}}$<br>2. Mass of the oven-dried sample: ${m_dry}\\text{{ g}}$<br>3. Total volume of the sample: ${V_tot}\\text{{ cm}}^3$<br>4. Density of the matrix materials: ${rho_matrix}\\text{{ g/cm}}^3$<br><br>Calculate the porosity $\\phi$ to two decimal places",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": "PLACEHOLDER_PHI",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "For the same sample, calculate the void ratio $e$ to two decimal places",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": "PLACEHOLDER_E",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "Bonus question: For the same sample, calculate the volumetric water content $\\theta$ to two decimal places",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": "PLACEHOLDER_THETA",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "What would be the mass of $1\\text{{ m}}^3$ of the unknown porous material if it was completely saturated? Answer in kg and one decimal place.",
+        "type": "numeric",
+        "precision": 1,
+        "answers": [
+            {
+                "type": "value",
+                "value": "PLACEHOLDER_SAT_MASS",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    }
+]
