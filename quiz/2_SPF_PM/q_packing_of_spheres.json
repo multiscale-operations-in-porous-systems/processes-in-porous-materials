@@ -1,0 +1,53 @@
+[
+    {
+        "question": "Consider a Simple Cubic (SC) packing of rigid, mono-disperse spherical particles of radius $R$. Derive the theoretical porosity $\\phi$ of this unit cell. Enter the value as a decimal fraction (rounded to 3 decimal places).",
+        "type": "numeric",
+        "answers": [
+            {
+                "value": 0.476,
+                "tolerance": 0.005,
+                "correct": true,
+                "feedback": "Correct! The unit cell volume is $V_{total} = (2R)^3 = 8R^3$. The solid volume containing 1 net sphere is $V_{solid} = \\frac{4}{3}\\pi R^3$. Porosity $\\phi = 1 - \\frac{\\pi}{6} \\approx 0.476$."
+            },
+            {
+                "value": 0.524,
+                "tolerance": 0.005,
+                "correct": false,
+                "feedback": "Incorrect. 0.524 (or $\\frac{\\pi}{6}$) is the solid volume fraction (1 - $\\phi$). Remember that porosity represents the void volume fraction!"
+            }
+        ]
+    },
+    {
+        "question": "For the same Simple Cubic packing of spheres with radius $R$, what is the specific surface area per unit volume of the <b>total bed</b> ($a_v$)?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "$a_v = \\frac{3}{R}$",
+                "correct": false,
+                "feedback": "Incorrect. This is the specific surface area per unit volume of the <i>solid phase alone</i> ($a_s = \\frac{4\\pi R^2}{4/3 \\pi R^3} = \\frac{3}{R}$)."
+            },
+            {
+                "answer": "$a_v = \\frac{\\pi}{2R}$",
+                "correct": true,
+                "feedback": "Correct! $a_v = \\frac{\\text{Surface Area}}{\\text{Total Volume}} = \\frac{4\\pi R^2}{8R^3} = \\frac{\\pi}{2R^2}$. This can also be stated as $a_s(1-\\phi) = \\frac{3}{R}(\\frac{\\pi}{6}) = \\frac{\\pi}{2R}$."
+            },
+            {
+                "answer": "$a_v = \\frac{3(1-\\phi)}{2R}$",
+                "correct": false,
+                "feedback": "Incorrect. Substituting the solid specific surface area yields $a_v = a_s(1-\\phi) = \\frac{3(1-\\phi)}{R}$."
+            }
+        ]
+    },
+    {
+        "question": "In a perfectly aligned, straight parallel Bundle of Tubes model constructed through this simple cubic lattice along a principal axis, what is the geometric tortuosity factor $\\tau = (L_e/L)$?",
+        "type": "numeric",
+        "answers": [
+            {
+                "value": 1.0,
+                "tolerance": 0.01,
+                "correct": true,
+                "feedback": "Correct! Because a simple cubic arrangement allows straight, uninterrupted channels parallel to the axes, the effective fluid path length $L_e$ equals the bed length $L$, yielding a purely geometric tortuosity of 1.0."
+            }
+        ]
+    }
+]
