@@ -8,7 +8,5 @@ If you have any questions, please reach out to the lecturer of the corresponding
 | David Rieder <br> d.r.rieder@tue.nl | Maja Rucker <br> m.rucker@tue.nl | Willem-Bart Bartels <br> w.bartels@tue.nl | Amir Raoof <br> araoof@uu.nl | Thomas Sweijen <br> t.sweijen@uu.nl|
 |----------|----------|----------|----------|----------|
 | [PHOTO]  | [PHOTO]  | [PHOTO]  | [PHOTO]  | [PHOTO]  |
-|----------|----------|----------|----------|----------|
 | David is an assistant professor in the Mechanical Engineering department at TU/e.   | Maja is an assistant professor in the Mechanical Engineering department at TU/e. | Willem-Bart is a Teacher in the Mechanical Engineering department at TU/e.  | Amir is an associate professor in the Earth Sciences department at UU   | Thomas is an assistant professor in the Earth Sciences department at UU  |
-|----------|----------|----------|----------|----------|
-| Topics: * Solute transport in porous materials <br> * Electrochemistry| Topics: * Poromechanics <br> *Applications of synthetic porous materials | Topics: * Single phase flow in porous material <br> * Heat transfer in porous materials| Topics:  * Applications of natural porous materials <br>  | Topics: * Applications of synthetic porous materials * Applications of natural porous materials *Two phase flow and swelling |
+| Topics: <br> * Solute transport in porous materials <br> * Electrochemistry | Topics: <br> * Poromechanics <br> *Applications of synthetic porous materials | Topics: <br> * Single phase flow in porous material <br> * Heat transfer in porous materials| Topics: <br>  * Applications of natural porous materials <br>  | Topics: <br> * Applications of synthetic porous materials <br> * Two phase flow and swelling |
