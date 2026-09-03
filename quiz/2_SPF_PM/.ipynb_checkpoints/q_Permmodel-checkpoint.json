@@ -1,6 +1,6 @@
 [
     {
-        "question": "A fine sand has a grain size distribution as listed in Table @tab-psd. The porosity of the sand is $\\phi=0.37$ <br><br>Calculate the estimated intrinsic permeability $k$ in $10^{-12} \\text{ m}^2$ to two decimal places using the Kozeny-Carman correlation",
+        "question": "A fine sand has a grain size distribution as listed in table and figure above. The porosity of the sand is $\\phi=0.37$ <br><br>Calculate the estimated intrinsic permeability $k$ in $10^{-12} \\text{ m}^2$ to two decimal places using the Kozeny-Carman correlation",
         "type": "numeric",
         "precision": 2,
         "answers": [
