@@ -1,0 +1,39 @@
+[
+    {
+        "question": "A sandstone rock sample and a polymer electrolyte membrane fuel cell (PEMFC) catalyst layer both exhibit a highly uniform grain-size distribution, but the catalyst's characteristic grain radius is 3 orders of magnitude smaller. Assuming identical geometric packing arrangements, how will their cumulative pore size distributions (PSDs) compare?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "The catalyst layer's PSD curve will look identical in shape to the sandstone's, but shifted completely toward smaller pore radii by roughly 3 orders of magnitude.",
+                "correct": true,
+                "feedback": "Correct! If the packing geometry is identical, the ratio of pore throat size to grain size remains invariant. Scaling down the grains scales down the pores uniformly across the distribution."
+            },
+            {
+                "answer": "The catalyst layer will display a much wider, more graded pore size distribution than the sandstone.",
+                "correct": false,
+                "feedback": "Incorrect. Distribution width is dictated by grain polydispersity (sorting), not the absolute scale of the median grain size."
+            },
+            {
+                "answer": "The sandstone will have a lower overall porosity due to its larger absolute pore volumes.",
+                "correct": false,
+                "feedback": "Incorrect. Absolute size does not alter porosity; porosity is a scale-independent dimensionless ratio."
+            }
+        ]
+    },
+    {
+        "question": "Why must a fuel cell catalyst layer intentionally possess a highly specific, often bimodal pore size distribution containing both micro/mesopores (<50 nm) and macropores (>100 nm)?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "To maximize the Kozeny-Carman constant across all phases.",
+                "correct": false,
+                "feedback": "Incorrect. The Kozeny-Carman equation assumes a simplified single-phase continuum and fails to capture multi-scale distribution targets."
+            },
+            {
+                "answer": "To accommodate conflicting transport mechanisms: small pores provide extreme surface area for chemical reactions, while larger pores permit rapid gas mass-transport and water removal.",
+                "correct": true,
+                "feedback": "Correct! This design prevents liquid water from flooding nanoscale reaction boundaries while preserving structural transport pathways."
+            }
+        ]
+    }
+]

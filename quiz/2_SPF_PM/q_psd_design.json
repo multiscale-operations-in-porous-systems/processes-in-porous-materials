@@ -1,0 +1,39 @@
+[
+    {
+        "question": "Two engineered porous filters (Filter A and Filter B) possess identical total porosities ($\\phi = 0.40$) and the exact same pore size distribution (50% large pores, 50% small pores). <br><br><b>Filter A:</b> Pores are arranged in a serial configuration (fluid must pass through small pores to reach large pores).<br><b>Filter B:</b> Pores are arranged in a parallel configuration (fluid chooses paths of either large or small pores independently).<br><br>Which statement correctly flags the impact of this geometric ordering on hydraulic conductivity?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Both filters will yield identical macroscopic hydraulic conductivity because their material volumes and pore statistics match.",
+                "correct": false,
+                "feedback": "Incorrect. Mass transport is governed by the structural configuration of the local resistance networks, not just spatial volume fractions."
+            },
+            {
+                "answer": "Filter B (parallel) will display a significantly higher conductivity because the fluid can exploit continuous, low-resistance pathways through the large-pore channels without being throttled by small pores.",
+                "correct": true,
+                "feedback": "Correct! In parallel networks, total conductivity is dominated by the largest paths ($K \\propto R^4$). In serial setups, the smallest pores act as global volumetric chokepoints."
+            },
+            {
+                "answer": "Filter A (serial) will yield a higher conductivity due to capillary pressure acceleration inside tight bottlenecks.",
+                "correct": false,
+                "feedback": "Incorrect. While local capillary forces increase, viscous pressure drop scales up aggressively inside tight bottlenecks, reducing overall permeability."
+            }
+        ]
+    },
+    {
+        "question": "In the context of Pore Network Modeling (PNM) and material design, how can an engineer optimize structural conductivity <b>without</b> changing the raw volumetric porosity?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "By altering the spatial topology to maximize pore-to-throat coordination numbers and eliminating bottleneck serialization.",
+                "correct": true,
+                "feedback": "Correct! By adjusting how pores interconnect (topology and coordination number), you can reduce path sinuosity (tortuosity) and isolate bottlenecks, elevating performance at a constant weight/porosity profile."
+            },
+            {
+                "answer": "By switching from a Constant Head testing framework to a Falling Head testing framework.",
+                "correct": false,
+                "feedback": "Incorrect. Measurement setups quantify fluid metrics but do not change the fundamental intrinsic transport configuration of the underlying material."
+            }
+        ]
+    }
+]

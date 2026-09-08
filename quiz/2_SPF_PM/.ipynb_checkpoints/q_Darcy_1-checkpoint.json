@@ -1,80 +1,61 @@
 [
     {
-        "question": "A concrete dam is $95 \\text{ m}$ long parallel to its axis, across the valley. The head on the upstream side of the dam is $14 \\text{ m}$ higher than the head on the downstream side. There is a thin sand layer under the entire concrete base of the dam. It is $0.6 \\text{ m}$ thick on average, and extends about $25 \\text{ m}$ from the upstream to the downstrdeamside of the dam. The sand's effective porosity is $\\phi =0.34$. A dye tracer test from upstream to downstream indicates that the average linear velocity within this sand is $\\bar{v}_x = 13 \\text{ m/day}$ ($x$ is parallel to the layer, perpendicular to the dam's axis).<br><br> Calculate the specific discharge $q_x$ through the sand layer.",
+        "question": "A concrete dam is $95 \\text{ m}$ long parallel to its axis, across the valley. The head on the upstream side of the dam is $14 \\text{ m}$ higher than the head on the downstream side. There is a thin sand layer under the entire concrete base of the dam. It is $0.6 \\text{ m}$ thick on average, and extends about $25 \\text{ m}$ from the upstream to the downstrdeamside of the dam. The sand's effective porosity is $\\phi =0.34$. A dye tracer test from upstream to downstream indicates that the average linear velocity within this sand is $\\bar{v}_x = 13 \\text{ m/day}$ ($x$ is parallel to the layer, perpendicular to the dam's axis).<br><br> Calculate the specific discharge $q_x$ through the sand layer. Give your answer in m/day and two decimal places",
         "type": "numeric",
         "precision": 2,
         "answers": [
             {
                 "type": "value",
-                "value": 0.51,
+                "value": 4.42,
                 "correct": true,
                 "feedback": "Correct."
             },
             {
                 "type": "range",
-                "range": [ 3.142857, 3.142858], 
+                "range": [4.40, 4.45], 
                 "correct": true,
-                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
-            },
-            {
-                "type": "range",
-                "range": [ -100000000, 0], 
-                "correct": false,
-                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+                "feedback": "Within range"
             }
             
         ]
     },
     {
-        "question": "Estimate the total discharge $Q$ leaking through the sand layer under the entire dam.",
+        "question": "Estimate the total discharge $Q$ leaking through the sand layer under the entire dam. Give your answer as an integer and in $m^3$/day.",
         "type": "numeric",
         "precision": 2,
         "answers": [
             {
                 "type": "value",
-                "value": 0.23,
+                "value": 252,
                 "correct": true,
                 "feedback": "Correct."
             },
             {
                 "type": "range",
-                "range": [ 3.142857, 3.142858], 
+                "range": [ 250, 255], 
                 "correct": true,
-                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
-            },
-            {
-                "type": "range",
-                "range": [ -100000000, 0], 
-                "correct": false,
-                "feedback": "pi is the AREA of a circle of radius 1. Try again."
+                "feedback": "Within range."
             }
             
         ]
     },
     {
-        "question": "Estimate $K_x$ of the sand",
+        "question": "Estimate $K_x$ of the sand in m/day, and two decimal places",
         "type": "numeric",
         "precision": 2,
         "answers": [
             {
                 "type": "value",
-                "value": 0.68,
+                "value": 7.89,
                 "correct": true,
                 "feedback": "Correct."
             },
             {
                 "type": "range",
-                "range": [ 3.142857, 3.142858], 
+                "range": [ 7.6, 8.0], 
                 "correct": true,
-                "feedback": "True to 2 decimal places, but you know pi is not really 22/7, right?"
-            },
-            {
-                "type": "range",
-                "range": [ -100000000, 0], 
-                "correct": false,
-                "feedback": "pi is the AREA of a circle of radius 1. Try again."
-            }
-            
+                "feedback": "Within range."
+            }            
         ]
     },
     {
