@@ -1,0 +1,5 @@
+{
+    "@jupyterlab/application-extension:sidebar": {
+        "collapsed": true
+    }
+}
