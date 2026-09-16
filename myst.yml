@@ -18,7 +18,9 @@ project:
   toc:
     - file: index.md
       title: Home
-    - file: chapters/2a_SinglePhaseFlow_inPM.ipynb
+    - file: chapters/2a_SinglePhaseFlow_inPM_Theory.ipynb
+    - file: chapters/2a_SinglePhaseFlow_inPM_Experiments.ipynb
+    - file: chapters/2a_SinglePhaseFlow_inPM_Modeling.ipynb
     - file: chapters/2b_Poromechanics.ipynb
     - file: chapters/3a_HeatTrans_inPM.ipynb
     - file: chapters/3b_SoluteTrans_inPM.ipynb
