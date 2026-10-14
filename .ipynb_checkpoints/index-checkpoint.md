@@ -5,7 +5,7 @@ Welcome to this course on processes in porous materials! This set of pages serve
 
 If you have any questions, please reach out to the lecturer of the corresponding topic.
 
-| David Rieder <br> d.r.rieder@tue.nl | Maja Rucker <br> m.rucker@tue.nl | Willem-Bart Bartels <br> w.bartels@tue.nl | Amir Raoof <br> araoof@uu.nl | Thomas Sweijen <br> t.sweijen@uu.nl|
+| David Rieder <br> d.r.rieder@tue.nl | Maja Rucker <br> m.rucker@tue.nl | Willem-Bart Bartels <br> w.bartels@tue.nl | Amir Raoof <br> a.raoof@uu.nl | Thomas Sweijen <br> t.sweijen@uu.nl|
 |----------|----------|----------|----------|----------|
 | [PHOTO]  | [PHOTO]  | [PHOTO]  | [PHOTO]  | [PHOTO]  |
 | David is an assistant professor in the Mechanical Engineering department at TU/e.   | Maja is an assistant professor in the Mechanical Engineering department at TU/e. | Willem-Bart is a Teacher in the Mechanical Engineering department at TU/e.  | Amir is an associate professor in the Earth Sciences department at UU   | Thomas is an assistant professor in the Earth Sciences department at UU  |
