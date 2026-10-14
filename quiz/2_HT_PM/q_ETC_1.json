@@ -1,0 +1,22 @@
+[
+    {
+        "question": "A metal foam heat sink has a porosity ($\\phi$) of 0.90. The solid skeleton is Copper ($(k_s = 400 \\text{ W/m \\cdot K})$) and the fluid is Air ($k_f = 0.026 \\text{ W/m\\cdot K}$). Calculate the absolute upper and lower theoretical bounds for the Effective Thermal Conductivity ($k_{e}$). Give your answer in W and two decimal places",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 4.42,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [4.40, 4.45], 
+                "correct": true,
+                "feedback": "Within range"
+            }
+            
+        ]
+    }
+]
