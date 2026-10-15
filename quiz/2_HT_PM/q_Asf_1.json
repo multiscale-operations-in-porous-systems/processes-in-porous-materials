@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Assume a porous matrix is modeled as a simple bundle of capillary tubes of diameter $d_p=2$ mm with a porosity $\\phi =0.4$. Derive or calculate the specific interfacial surface area per unit volume ($a_{sf}$). Give your answer as an integer in $m^2 / m^3$",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 1200,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "range",
+                "range": [1100, 1300], 
+                "correct": true,
+                "feedback": "Within range"
+            }
+            
+        ]
+    }
+]

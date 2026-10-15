@@ -1,0 +1,28 @@
+[
+    {
+        "question": "An engineer wants to use the single-equation (LTE) model to simulate a nuclear pebble bed reactor during an emergency shutdown. The coolant flow velocity drops drastically, but the solid fuel spheres remain extremely hot. Does LTE hold? Why or why not?",
+        "type": "multiple-choice",
+        "answers": [
+      {
+        "answer": "No, because the temperature of the fluid and solid are not approximately equal (which was a requirement for LTE).",
+        "correct": true,
+        "feedback": "Correct."
+      },
+      {
+        "answer": "No, because any time flow occurs in a heated porous material, local thermal equilibrium cannot be achieved",
+        "correct": false,
+        "feedback": "Incorrect. For instance, a very slow flow or flow in very narrow pores would allow you to assume LTE (because you may assume the heat transfer from solid to fluid is much faster than the residence time of the fluid. Another consideration is the heat capacity of the fluid, which may prevent rapid heating (or cooling)."
+      },
+      {
+        "answer": "Yes, because the process is fast.",
+        "correct": false,
+        "feedback": "Incorrect. The speed of the process is actually one of the reasons it is unlikely that LTE would hold here."
+      },
+      {
+        "answer": "Yes, because the coolant will strip away the heat from the pebbles efficiently.",
+        "correct": false,
+        "feedback": "Incorrect. It actually does not do that anymore, since the velocity dropped drastically."
+      }
+    ]
+    }
+]
