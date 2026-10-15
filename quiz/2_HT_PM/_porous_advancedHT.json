@@ -1,0 +1,132 @@
+[
+  {
+    "question": "In a laser flash experiment on a water-saturated porous disc (porosity = 0.5), the half-rise time is 5.37 s for a thickness of 4 mm. If the effective heat capacity is 3.1 MJ/m³K, what is the estimated Effective Thermal Conductivity (ke)?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "0.641 W/m·K",
+        "correct": false,
+        "feedback": "Incorrect. Did you forget to square the thickness L when calculating the effective thermal diffusivity?"
+      },
+      {
+        "answer": "1.282 W/m·K",
+        "correct": true,
+        "feedback": "Correct! Diffusivity is calculated via Parker's relation (alpha = 0.1388 * L² / t_1/2), which yields 4.136e-7 m²/s. Multiplying by the volumetric heat capacity gives 1.282 W/m·K."
+      },
+      {
+        "answer": "2.564 W/m·K",
+        "correct": false,
+        "feedback": "Incorrect. Check your factor of 2 or your calculation of the volumetric heat capacity blending."
+      },
+      {
+        "answer": "0.321 W/m·K",
+        "correct": false,
+        "feedback": "Incorrect. This value is too low. Ensure your units for thickness are converted to meters before squaring."
+      }
+    ]
+  },
+  {
+    "question": "In a Schumann column experiment under LTNE conditions, a steady heat transfer rate per unit volume of 4.0e5 W/m³ is recorded. If Ts = 80°C, Tf = 40°C, and the specific surface area asf = 2000 m²/m³, find the fluid-solid convective coefficient h_sf.",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "2.5 W/m²K",
+        "correct": false,
+        "feedback": "Incorrect. Check your arithmetic. Ensure you divided by both the surface area and the full temperature driving force."
+      },
+      {
+        "answer": "5.0 W/m²K",
+        "correct": true,
+        "feedback": "Correct! Using q''' = h_sf * asf * (Ts - Tf), we get h_sf = 400,000 / (2000 * 40) = 5.0 W/m²K."
+      },
+      {
+        "answer": "10.0 W/m²K",
+        "correct": false,
+        "feedback": "Incorrect. It seems you might have multiplied or divided by an accidental factor of 2."
+      },
+      {
+        "answer": "20.0 W/m²K",
+        "correct": false,
+        "feedback": "Incorrect. Ensure you are using the actual volumetric temperature difference (80 - 40 = 40°C)."
+      }
+    ]
+  },
+  {
+    "question": "During a lateral mixing test, doubling the flow velocity through a packed bed causes the total transverse thermal conductivity to increase by 60%, while the static effective conductivity remains constant. What was the percentage contribution of thermal dispersion to total heat transport initially?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "40%",
+        "correct": false,
+        "feedback": "Incorrect. Set up the balance equation: ke + 2*k_disp = 1.6*(ke + k_disp). Solve carefully for the initial ratio."
+      },
+      {
+        "answer": "50%",
+        "correct": false,
+        "feedback": "Incorrect. Remember that the linear velocity scaling only affects the dispersion component, not the static base conductivity."
+      },
+      {
+        "answer": "60%",
+        "correct": true,
+        "feedback": "Correct! The mathematical balance yields k_disp = 1.5 * ke. Thus, the initial contribution share is 1.5 / (1 + 1.5) = 60%."
+      },
+      {
+        "answer": "75%",
+        "correct": false,
+        "feedback": "Incorrect. Check your algebraic isolation of the variables."
+      }
+    ]
+  },
+  {
+    "question": "A horizontal porous layer setup (Run A) has a height H = 10 cm and reaches the onset of natural convection at a critical temperature difference of 12°C. If the fluid and matrix remain identical but the layer height is reduced to H = 5 cm (Run B), what is the new critical temperature difference?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "3°C",
+        "correct": false,
+        "feedback": "Incorrect. Reducing the height makes the system more stable against convection, so a larger temperature difference is required."
+      },
+      {
+        "answer": "6°C",
+        "correct": false,
+        "feedback": "Incorrect. Remember that the Porous Rayleigh number is proportional to (Delta T * H), not H² or H³ like in clear fluids."
+      },
+      {
+        "answer": "24°C",
+        "correct": true,
+        "feedback": "Correct! Because the porous Rayleigh number scales linearly with height (Ra_p ~ Delta T * H), halving the height means you must double the temperature difference to trigger convection."
+      },
+      {
+        "answer": "48°C",
+        "correct": false,
+        "feedback": "Incorrect. This overestimates the scaling. Check the linear height dependence within the porous Darcy-Rayleigh formulation."
+      }
+    ]
+  },
+  {
+    "question": "A pore-scale thermal boundary layer thickness measures 150 micrometers at a pore Péclet number of 16. If the Péclet number increases to 64, what is the new estimated boundary layer thickness assuming standard laminar scaling?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "300 micrometers",
+        "correct": false,
+        "feedback": "Incorrect. An increased flow rate compresses the thermal boundary layer, making it thinner, not thicker."
+      },
+      {
+        "answer": "75 micrometers",
+        "correct": true,
+        "feedback": "Correct! Boundary layer thickness scales with Pe^(-0.5). Quadrupling the Péclet number (from 16 to 64) cuts the thermal boundary layer thickness exactly in half."
+      },
+      {
+        "answer": "37.5 micrometers",
+        "correct": false,
+        "feedback": "Incorrect. This would correspond to a linear scaling with velocity, which does not apply to thermal boundary layers."
+      },
+      {
+        "answer": "150 micrometers",
+        "correct": false,
+        "feedback": "Incorrect. The boundary layer cannot remain constant when flow velocity changes."
+      }
+    ]
+  }
+]

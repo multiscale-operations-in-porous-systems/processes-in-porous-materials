@@ -1,0 +1,124 @@
+[
+    {
+        "question": "<b>1a. The Conductivity Sandwich (Upper Bound):</b> Calculate the absolute upper (parallel) theoretical bound of effective thermal conductivity ($k_{eff}$) for a copper foam matrix ($\\\\phi = 0.85$, $k_s = 400 \\\\text{ W/mK}$) saturated with water ($k_f = 0.6 \\\\text{ W/mK}$). Provide your answer to two decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 60.51,
+                "correct": true,
+                "feedback": "Correct! $k_{eff, \\\\text{parallel}} = (1 - \\\\phi)k_s + \\\\phi k_f = (0.15 \\\\times 400) + (0.85 \\\\times 0.6) = 60.51 \\\\text{ W/mK}$."
+            },
+            {
+                "type": "range",
+                "range": [60.45, 60.55],
+                "correct": true,
+                "feedback": "Close enough due to rounding."
+            }
+        ]
+    },
+    {
+        "question": "<b>1b. The Conductivity Sandwich (Lower Bound):</b> Calculate the absolute lower (perpendicular) theoretical bound of effective thermal conductivity ($k_{eff}$) for the same copper-water matrix ($\\\\phi = 0.85$, $k_s = 400 \\\\text{ W/mK}$, $k_f = 0.6 \\\\text{ W/mK}$). Provide your answer to two decimal places.",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "value",
+                "value": 0.71,
+                "correct": true,
+                "feedback": "Correct! $k_{eff, \\\\text{serie}} = \\\\frac{1}{\\\\frac{1-\\\\phi}{k_s} + \\\\frac{\\\\phi}{k_f}} = \\\\frac{1}{\\\\frac{0.15}{400} + \\\\frac{0.85}{0.6}} \\\\approx 0.71 \\\\text{ W/mK}$."
+            },
+            {
+                "type": "range",
+                "range": [0.70, 0.72],
+                "correct": true,
+                "feedback": "Close enough due to rounding."
+            }
+        ]
+    },
+    {
+        "question": "<b>2. LTE Boundary Check:</b> Consider a high-power laser pulse cooling an aluminum heat sink foam versus a steady-state geothermal aquifer. Which statement correctly identifies the thermal equilibrium regimes?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "The laser pulse requires Local Thermal Non-Equilibrium (LTNE), while the steady-state geothermal aquifer allows Local Thermal Equilibrium (LTE).",
+                "correct": true,
+                "feedback": "Correct! Rapid transients like laser pulses induce extreme local temperature differences between the solid skeleton and fluid ($T_s \\\\neq T_f$), requiring LTNE. Slow steady-state flows give phases time to equilibrate, allowing LTE."
+            },
+            {
+                "code": "The laser pulse allows Local Thermal Equilibrium (LTE), while the steady-state geothermal aquifer requires Local Thermal Non-Equilibrium (LTNE).",
+                "correct": false,
+                "feedback": "Incorrect. Think about the timescale. Fast pulses don't allow phases to match temperatures instantaneously."
+            },
+            {
+                "code": "Both scenarios completely satisfy the Local Thermal Equilibrium (LTE) assumption.",
+                "correct": false,
+                "feedback": "Incorrect. Extreme, fast thermal shocks break the LTE assumption."
+            }
+        ]
+    },
+    {
+        "question": "<b>3. Dimensionless Scaling:</b> Given the Darcy-Rayleigh number formula $Ra_m = \\\\frac{g \\\\beta K \\\\Delta H T}{\\\\nu \\\\alpha_m}$, predict what happens to natural convection inside a porous insulation layer if the average particle diameter ($d_p$) doubles (recalling that permeability scales as $K \\\\propto d_p^2$).",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "The Darcy-Rayleigh number ($Ra_m$) quadruples.",
+                "correct": true,
+                "feedback": "Correct! Doubling $d_p$ increases permeability $K$ by a factor of $2^2 = 4$. Since $Ra_m$ is directly proportional to $K$, $Ra_m$ quadruples, significantly accelerating natural convection loops."
+            },
+            {
+                "code": "The Darcy-Rayleigh number ($Ra_m$) doubles.",
+                "correct": false,
+                "feedback": "Incorrect. Remember that permeability $K$ scales quadratically ($\\\\propto d_p^2$) with the particle diameter."
+            },
+            {
+                "code": "The Darcy-Rayleigh number ($Ra_m$) is cut in half.",
+                "correct": false,
+                "feedback": "Incorrect. An increased grain size reduces flow resistance, making buoyancy-driven convection stronger, not weaker."
+            }
+        ]
+    },
+    {
+        "question": "<b>4. Dispersion Calculation:</b> Consider the simplified dispersion formula: $k_{disp} = k_{eff} + C \\\\cdot Pe \\\\cdot k_f$. When the flow transitions from a creeping state ($Pe = 0.1$) to a fast state ($Pe = 50$), what happens to the total apparent thermal conductivity?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Hydrodynamic dispersion scales up linearly with $Pe$, acting as a major heat transport accelerator by stirring thermal boundary layers.",
+                "correct": true,
+                "feedback": "Correct! At low $Pe$, heat transfer is governed almost entirely by static conduction ($k_{eff}$). At high $Pe$, mechanical mixing (dispersion) dramatically enhances total thermal performance."
+            },
+            {
+                "code": "The effective conductivity drops because high velocities disrupt contact conduction pathways.",
+                "correct": false,
+                "feedback": "Incorrect. Fast fluid velocities always increase total apparent thermal transport through hydrodynamic mixing."
+            },
+            {
+                "code": "The apparent thermal conductivity stays constant because $k_{eff}$ is independent of velocity.",
+                "correct": false,
+                "feedback": "Incorrect. While static $k_{eff}$ stays constant, the *dispersion* component ($C \\\\cdot Pe \\\\cdot k_f$) changes dynamically with flow rate."
+            }
+        ]
+    },
+    {
+        "question": "<b>5. Concept Check Concept Map:</b> Which internal microstructural property is primarily responsible for generating high fluid-to-solid convective heat transfer rates, directly driving a system to favor a Local Thermal Equilibrium (LTE) regime rather than LTNE?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Interfacial Area ($a_{sf}$)",
+                "correct": true,
+                "feedback": "Correct! A massive interfacial surface area per unit volume provides maximum contact exposure between the matrix and fluid, allowing heat to equalize rapidly and supporting the LTE condition."
+            },
+            {
+                "code": "Tortuosity ($\\\\tau$)",
+                "correct": false,
+                "feedback": "Incorrect. Tortuosity measures how winding/twisted the pores are, which principalement impedes diffusion pathways rather than phase heat transfer rates."
+            },
+            {
+                "code": "Permeability ($K$)",
+                "correct": false,
+                "feedback": "Incorrect. Permeability determines total fluid throughput/resistance, but the local thermal transfer rate relies explicitly on fluid-solid contact surfaces."
+            }
+        ]
+    }
+]
