@@ -18,7 +18,7 @@
             }
                        
         ]
-    }
+    },
      {
         "question": "Assuming that the water has this same $h$ as it travels up and down in the air, what would be the highest elevation that the water arc reaches? Assume $v=0$ at the top of the arc. Give your answer in m and two decimal places",
         "type": "numeric",
