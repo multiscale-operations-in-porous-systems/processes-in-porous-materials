@@ -25,7 +25,6 @@ project:
     - file: chapters/3a_SoluteTrans_inPM.ipynb
     - file: chapters/3b_Adsorption.ipynb
 site:
-  template: https://github.com/jupyter-book/myst-theme/releases/download/myst-to-react%401.4.1/book-theme.zip
   options:
     logo: figures/TUe-logo-scarlet-L.png
     show_source: false
