@@ -39,7 +39,10 @@ jobs:
         with:
             python-version: "3.13"
       - name: Install Jupyter Lite
-        run: python -m pip install jupyter-book==2.1.6 jupyterlite-core==0.8.3 jupyter-server jupyterlite-pyodide-kernel
+        run: |
+          python -m pip install jupyter-book==2.1.6 jupyterlite-core==0.8.3 jupyter-server jupyterlite-pyodide-kernel
+          python -m pip install -U "mystmd>=1.13.0"
+          pip list | grep -i -E "jupyter-book|mystmd"
       - name: Build HTML Assets
         run: |
             chmod +x scripts/build.sh
