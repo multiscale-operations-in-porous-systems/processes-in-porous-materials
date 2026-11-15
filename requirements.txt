@@ -1,9 +1,9 @@
 ipykernel
-jupyter-book>=2.0
+jupyter-book>=2.1.5
+mystmd>=1.13.0
 jupyterquiz
 numpy>=2.0
 plotly
 matplotlib
 pandas
 ipywidgets
-plotly
