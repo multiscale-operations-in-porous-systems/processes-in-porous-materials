@@ -63,13 +63,13 @@
         "answers": [
             {
                 "type": "value",
-                "value": 1.56,
+                "value": 21.40,
                 "correct": true,
                 "feedback": "Correct."
             },
             {
                 "type": "range",
-                "range": [ 1.55, 1.58], 
+                "range": [ 21.38, 21.41], 
                 "correct": true,
                 "feedback": "Within range"
             }          
