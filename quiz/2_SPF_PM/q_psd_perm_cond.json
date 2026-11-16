@@ -1,18 +1,18 @@
 [
     {
-        "question": "A simplified porous core is modeled as a parallel Bundle of Tubes. Its pore size distribution shows a uniform breakdown of cross-sectional area: 50% of the total void space consists of tubes with radius $R_1 = 10\\,\\mu\\text{m}$, and 50% consists of tubes with radius $R_2 = 20\\,\\mu\\text{m}$. Total porosity is $\\phi = 0.30$. Using the Hagen-Poiseuille relationship for a bundle of straight, parallel cylinders, compute the intrinsic permeability $K$ of this medium in $\\text{m}^2$. Hint: $K = \\frac{\\phi}{8} \\sum (f_i R_i^2)$.",
+        "question": "A simplified porous core is modeled as a parallel Bundle of Tubes. Its pore size distribution shows a uniform breakdown of cross-sectional area: 50% of the total void space consists of tubes with radius $R_1 = 10\\,\\mu\\text{m}$, and 50% consists of tubes with radius $R_2 = 20\\,\\mu\\text{m}$. Total porosity is $\\phi = 0.30$. Using the Hagen-Poiseuille relationship for a bundle of straight, parallel cylinders, compute the intrinsic permeability $k$ of this medium in $\\text{m}^2$. Hint: $k = \\frac{\\phi}{8} \\sum (f_i R_i^2)$.",
         "type": "numeric",
         "answers": [
             {
                 "value": 9.375e-12,
                 "tolerance": 1e-13,
                 "correct": true,
-                "feedback": "Correct! $K = \\frac{0.30}{8} \\cdot [0.5 \\cdot (10 \\times 10^{-6})^2 + 0.5 \\cdot (20 \\times 10^{-6})^2] = 0.0375 \\cdot [50 \\times 10^{-12} + 200 \\times 10^{-12}] = 9.375 \\times 10^{-12}\\,\\text{m}^2$."
+                "feedback": "Correct! $k = \\frac{0.30}{8} \\cdot [0.5 \\cdot (10 \\times 10^{-6})^2 + 0.5 \\cdot (20 \\times 10^{-6})^2] = 0.0375 \\cdot [50 \\times 10^{-12} + 200 \\times 10^{-12}] = 9.375 \\times 10^{-12}\\,\\text{m}^2$."
             }
         ]
     },
     {
-        "question": "Which of the following core assumptions allows us to directly translate a measured static pore size distribution into a macroscale intrinsic permeability ($K$) using the classic Kozeny-Carman formulation?",
+        "question": "Which of the following core assumptions allows us to directly translate a measured static pore size distribution into a macroscale intrinsic permeability ($k$) using the classic Kozeny-Carman formulation?",
         "type": "multiple_choice",
         "answers": [
             {
