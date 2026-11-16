@@ -69,7 +69,7 @@
             },
             {
                 "type": "range",
-                "range": [ 2139, 21.410], 
+                "range": [ 2139, 2141], 
                 "correct": true,
                 "feedback": "Within range"
             }          
