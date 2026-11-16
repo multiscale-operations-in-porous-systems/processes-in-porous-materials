@@ -31,4 +31,5 @@ site:
     show_source: false
     style: _static/custom.css
     folders: true
+    outline_maxdepth: 1
     
