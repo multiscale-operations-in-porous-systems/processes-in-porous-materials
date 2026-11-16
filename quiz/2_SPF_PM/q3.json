@@ -57,19 +57,19 @@
         ]
     },
     {
-        "question": "What would be the mass of $1\\text{m}^3$ of the unknown porous material if it was completely saturated? Answer in kg and two decimal places.",
+        "question": "What would be the mass of $1\\text{m}^3$ of the unknown porous material if it was completely saturated? Answer in kg and no decimal places.",
         "type": "numeric",
-        "precision": 2,
+        "precision": 4,
         "answers": [
             {
                 "type": "value",
-                "value": 21.40,
+                "value": 2140,
                 "correct": true,
                 "feedback": "Correct."
             },
             {
                 "type": "range",
-                "range": [ 21.38, 21.41], 
+                "range": [ 2139, 21.410], 
                 "correct": true,
                 "feedback": "Within range"
             }          
