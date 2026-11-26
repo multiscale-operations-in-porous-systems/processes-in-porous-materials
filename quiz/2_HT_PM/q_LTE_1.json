@@ -1,7 +1,7 @@
 [
   {
     "question": "An engineer wants to use the single-equation (LTE) model to simulate a nuclear pebble bed reactor during an emergency shutdown. The coolant flow velocity drops drastically, but the solid fuel spheres remain extremely hot. Does LTE hold? Why or why not?",
-    "type": "multiple-choice",
+    "type": "multiple_choice",
     "answers": [
       {
         "answer": "No, because the temperature of the fluid and solid are not approximately equal (which was a requirement for LTE).",
