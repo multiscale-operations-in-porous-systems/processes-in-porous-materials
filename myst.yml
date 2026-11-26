@@ -22,8 +22,6 @@ project:
     - file: chapters/2a_SinglePhaseFlow_inPM_Experiments.ipynb
     - file: chapters/2a_SinglePhaseFlow_inPM_Modeling.ipynb
     - file: chapters/2b_HeatTrans_inPM_Theory.ipynb
-    - file: chapters/3a_SoluteTrans_inPM.ipynb
-    - file: chapters/3b_Adsorption.ipynb
 site:
   template: https://github.com/jupyter-book/myst-theme/releases/download/myst-to-react%401.4.1/book-theme.zip
   options:
