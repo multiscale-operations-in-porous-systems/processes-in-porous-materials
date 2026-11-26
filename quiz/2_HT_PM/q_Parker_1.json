@@ -1,0 +1,45 @@
+[
+  {
+    "question": "In a standard laser flash experiment, a thin porous sample of thickness $L = 4~\\text{mm}$ and porosity $\\phi = 0.5$ is saturated with static water. A short pulse of laser energy is shot at the front face ($x = 0$), and the temperature rise $\\Delta T(t)$ is monitored at the back face ($x = L$). The half-rise time (the time it takes for the back face to reach half of its maximum temperature rise) is measured to be $t_{1/2} = 5.37~\\text{s}$. The half-rise time can be described by Parker's classical relation ($t_{1/2} = 0.1388 \\cdot \\frac{L^2}{\\alpha_{\\text{eff}}}$). Assuming this holds, calculate the effective thermal conductivity ($k_{\\text{eff}}$) in $\\text{W/(m}\\cdot\\text{K)}$ under Local Thermal Equilibrium (LTE). Given properties: $\\rho_f = 1000~\\text{kg/m}^3$, $c_{pf} = 4200~\\text{J/(kg}\\cdot\\text{K)}$, $\\rho_s = 2500~\\text{kg/m}^3$, $c_{ps} = 800~\\text{J/(kg}\\cdot\\text{K)}$. Give your answer in $\\text{W/(m}\\cdot\\text{K)}$ rounded to 2 decimal places.",
+    "type": "numeric",
+    "precision": 3,
+    "answers": [
+      {
+        "type": "range",
+        "range": [1.26, 1.30],
+        "correct": true,
+        "feedback": "Correct! You found $\\alpha_{\\text{eff}} \\approx 4.14 \\times 10^{-7}~\\text{m}^2/\\text{s}$ and combined it with $(\\rho c_p)_{\\text{eff}} = 3.1 \\times 10^6~\\text{J/(m}^3\\cdot\\text{K)}$ to get $k_{\\text{eff}} \\approx 1.28~\\text{W/(m}\\cdot\\text{K)}$."
+      },
+      {
+        "type": "range",
+        "range": [1.15, 1.2599],
+        "correct": false,
+        "feedback": "Close, but slightly low. Check your rounding during intermediate steps or verify that you converted $L = 4~\\text{mm}$ to $0.004~\\text{m}$ before squaring."
+      },
+      {
+        "type": "range",
+        "range": [1.3001, 1.45],
+        "correct": false,
+        "feedback": "Close, but slightly high. Double-check your arithmetic for $\\alpha_{\\text{eff}}$ and $(\\rho c_p)_{\\text{eff}} = \\phi \\rho_f c_{pf} + (1 - \\phi)\\rho_s c_{ps}$."
+      },
+      {
+        "type": "range",
+        "range": [0.40, 0.43],
+        "correct": false,
+        "feedback": "That looks like $\\alpha_{\\text{eff}}$ in $10^{-6}~\\text{m}^2/\\text{s}$ rather than $k_{\\text{eff}}$. Remember to multiply $\\alpha_{\\text{eff}}$ by the effective volumetric heat capacity $(\\rho c_p)_{\\text{eff}}$."
+      },
+      {
+        "type": "range",
+        "range": [4.35, 4.50],
+        "correct": false,
+        "feedback": "Check how you combined the fluid and solid heat capacities or converted units—this value is well above the expected effective conductivity for this mixture."
+      },
+      {
+        "type": "range",
+        "range": [-1000000, 1000000],
+        "correct": false,
+        "feedback": "Not quite. Start by solving Parker's relation for $\\alpha_{\\text{eff}}$ (using $L$ in meters), compute $(\\rho c_p)_{\\text{eff}} = \\phi \\rho_f c_{pf} + (1 - \\phi)\\rho_s c_{ps}$, and then use $k_{\\text{eff}} = \\alpha_{\\text{eff}}(\\rho c_p)_{\\text{eff}}$. Use the hint or full solution below if you'd like to walk through it."
+      }
+    ]
+  }
+]

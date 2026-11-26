@@ -1,0 +1,45 @@
+[
+  {
+    "question": "In an idealized Schumann packed bed experiment, cold liquid is pumped at a high, constant velocity through a hot porous matrix to evaluate the inter-phase heat transfer coefficient ($h_{sf}$). At a specific monitoring probe inside the bed, sensors register that the solid phase temperature stays at $T_s = 80^\\circ\\text{C}$ while the fluid moving past it tracks at $T_f = 40^\\circ\\text{C}$. The volumetric interfacial surface area is $a_{sf} = 2000~\\text{m}^2/\\text{m}^3$. If the local steady heat transfer rate per unit volume absorbed by the fluid is quantified as $q''' = 4.0 \\times 10^5~\\text{W/m}^3$, determine the value of $h_{sf}$. Give your answer in $\\text{W/(m}^2\\cdot\\text{K)}$ rounded to 2 decimal places.",
+    "type": "numeric",
+    "precision": 3,
+    "answers": [
+      {
+        "type": "range",
+        "range": [4.98, 5.02],
+        "correct": true,
+        "feedback": "Correct! Using $h_{sf} = \\frac{q'''}{a_{sf}(T_s - T_f)} = \\frac{4.0 \\times 10^5}{2000 \\times (80 - 40)}$ gives $h_{sf} = 5.00~\\text{W/(m}^2\\cdot\\text{K)}$."
+      },
+      {
+        "type": "range",
+        "range": [4.75, 4.9799],
+        "correct": false,
+        "feedback": "Very close, but slightly low. Double-check your arithmetic and temperature difference $\\Delta T = T_s - T_f$."
+      },
+      {
+        "type": "range",
+        "range": [5.0201, 5.25],
+        "correct": false,
+        "feedback": "Very close, but slightly high. Check your division by $a_{sf}$ and $(T_s - T_f)$."
+      },
+      {
+        "type": "range",
+        "range": [195, 205],
+        "correct": false,
+        "feedback": "It looks like you divided $q'''$ by $a_{sf}$ alone ($4.0 \\times 10^5 / 2000 = 200$) without dividing by the temperature difference $(T_s - T_f)$."
+      },
+      {
+        "type": "range",
+        "range": [9.5, 10.5],
+        "correct": false,
+        "feedback": "Check your powers of ten in $q''' = 4.0 \\times 10^5$ and $a_{sf} = 2000$—you may be off by a factor of two."
+      },
+      {
+        "type": "range",
+        "range": [-1000000, 1000000],
+        "correct": false,
+        "feedback": "Not quite. Start from the volumetric interphase heat transfer relation $q''' = h_{sf} a_{sf} (T_s - T_f)$ and solve for $h_{sf}$ in $\\text{W/(m}^2\\cdot\\text{K)}$. Check the hint or worked solution below if you need a nudge."
+      }
+    ]
+  }
+]

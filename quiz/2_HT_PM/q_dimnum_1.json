@@ -1,7 +1,7 @@
 [
     {
         "question": "You double the fluid velocity ($v_0$) through a porous packed bed. Using Darcy's law and porous heat transfer correlations ($Nu_p \\propto Pe_p^{0.5}$), determine qualitatively what happens to: (a) the pressure drop across the bed, and (b) the convective heat transfer coefficient.",
-        "type": "multiple-choice",
+        "type": "multiple_choice",
         "answers": [
       {
         "answer": "The pressure drop doubles because the velocity doubles, the convective heat transfer coefficient increases by a factor $\\sqrt{2}$",

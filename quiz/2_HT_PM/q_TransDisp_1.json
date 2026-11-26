@@ -1,0 +1,33 @@
+[
+  {
+    "question": "A thermal tracer experiment is conducted to track hydro-thermal mixing across a flat porous slab. Water flows steadily through the bed along the $x$-axis, and a line heat source acts continuously at the inlet. The total effective thermal conductivity in the lateral $y$-direction ($k_{y,\\text{total}}$) is monitored over varying velocities. When the flow velocity is doubled ($2 \\times v_0$), the experimentalists observe that the static thermal conductivity contribution ($k_e$) remains unchanged, yet the overall thermal conductivity in the $y$-direction ($k_{y,\\text{total}}$) increases by $60\\%$. Assuming lateral thermal dispersion scales linearly with flow velocity, what percentage of the initial total lateral heat transport was driven by thermal dispersion?",
+    "type": "multiple_choice",
+    "answers": [
+      {
+        "answer": "60%",
+        "correct": true,
+        "feedback": "Correct! Since $k_{d,1} = 2k_{d,0}$ and $k_{y,\\text{total},1} = 1.60\\,k_{y,\\text{total},0}$, setting $k_e + 2k_{d,0} = 1.60(k_e + k_{d,0})$ gives $k_{d,0} = 1.5\\,k_e$, so $\\frac{k_{d,0}}{k_e + k_{d,0}} = \\frac{1.5}{2.5} = 60\\%$."
+      },
+      {
+        "answer": "37.5%",
+        "correct": false,
+        "feedback": "Not quite. That comes from $\\frac{0.60}{1.60} = 37.5\\%$, which treats the $60\\%$ increase in total conductivity as if it were the initial dispersion fraction rather than solving for $k_{d,0}/k_e$ first."
+      },
+      {
+        "answer": "30%",
+        "correct": false,
+        "feedback": "Not quite. Halving $60\\%$ mixes up the velocity-doubling factor with the initial share of dispersion in the total conductivity."
+      },
+      {
+        "answer": "40%",
+        "correct": false,
+        "feedback": "Not quite. $40\\%$ is the static conductivity's share of the *new* total conductivity at $2v_0$ ($1.0 / 2.5 = 40\\%$), not the initial dispersion share at $v_0$."
+      },
+      {
+        "answer": "Cannot be determined because $k_e$ and $v_0$ are not given.",
+        "correct": false,
+        "feedback": "Actually, they cancel out! Because both $k_e$ and $k_{d,0}$ scale linearly in the algebra, only the ratio between $k_{d,0}$ and $k_e$ matters."
+      }
+    ]
+  }
+]
