@@ -1,0 +1,39 @@
+[
+  {
+    "question": "Students are validating natural convection limits using an adjustable horizontal porous layer bounded by isothermal copper sheets. The cavity contains a porous matrix filled with silicone oil, and the temperature difference is increased until convection loops initiate. In Run A, with a layer height of $H_A = 10~\\text{cm}$, the onset of natural convection occurs at $\\Delta T_{\\text{crit}, A} = 12^\\circ\\text{C}$. If the setup is kept identical except the height is decreased to $H_B = 5~\\text{cm}$ in Run B, what is the new critical temperature difference $\\Delta T_{\\text{crit}, B}$? Give your answer in $\\text{}^\\circ\\text{C}$ rounded to 1 decimal place.",
+    "type": "numeric",
+    "precision": 3,
+    "answers": [
+      {
+        "type": "range",
+        "range": [23.9, 24.1],
+        "correct": true,
+        "feedback": "Correct! Since $\\text{Ra}_m \\propto \\Delta T_{\\text{crit}} H$ is constant for the same porous medium, fluid, and boundaries, halving $H$ doubles $\\Delta T_{\\text{crit}}$ from $12^\\circ\\text{C}$ to $24.0^\\circ\\text{C}$."
+      },
+      {
+        "type": "range",
+        "range": [5.9, 6.1],
+        "correct": false,
+        "feedback": "Not quite. Halving $\\Delta T_{\\text{crit}}$ treats it as directly proportional to $H$, whereas in the porous Rayleigh number $\\text{Ra}_m$, $\\Delta T_{\\text{crit}}$ scales inversely with $H$."
+      },
+      {
+        "type": "range",
+        "range": [11.9, 12.1],
+        "correct": false,
+        "feedback": "Not quite. Changing the layer height $H$ changes the critical temperature difference $\\Delta T_{\\text{crit}}$ needed to reach the critical Rayleigh number."
+      },
+      {
+        "type": "range",
+        "range": [47.8, 48.2],
+        "correct": false,
+        "feedback": "Close, but check the scaling exponent on $H$ in the porous Rayleigh number $\\text{Ra}_m$—for Darcy flow in a porous layer, $\\text{Ra}_m$ is linear in $H$, not quadratic ($H^3$ is for clear-fluid Rayleigh–Bénard convection)."
+      },
+      {
+        "type": "range",
+        "range": [-1000000, 1000000],
+        "correct": false,
+        "feedback": "Not quite. Recall the porous medium Rayleigh number $\\text{Ra}_m = \\frac{g \\beta \\Delta T K H}{\\nu \\alpha_{\\text{eff}}}$ and how $\\Delta T_{\\text{crit}}$ depends on $H$ when all other parameters remain fixed. Check the hint or full solution below if needed."
+      }
+    ]
+  }
+]
